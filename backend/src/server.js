@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import {clerkMiddleware} from "@clerk/express";
 import userRoutes from "./routes/userRoutes.js";
 // import adminRoutes from "./routes/adminRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
